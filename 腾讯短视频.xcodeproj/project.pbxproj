@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C452C2FB2661EC40003CDA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C452C2FA2661EC40003CDA52 /* AppDelegate.m */; };
+		C452C3012661EC40003CDA52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C452C3002661EC40003CDA52 /* ViewController.m */; };
+		C452C3042661EC40003CDA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C452C3022661EC40003CDA52 /* Main.storyboard */; };
+		C452C3062661EC41003CDA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C452C3052661EC41003CDA52 /* Assets.xcassets */; };
+		C452C3092661EC41003CDA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C452C3072661EC41003CDA52 /* LaunchScreen.storyboard */; };
+		C452C30C2661EC41003CDA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C452C30B2661EC41003CDA52 /* main.m */; };
+		C452C3C726623039003CDA52 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3C626623039003CDA52 /* Accelerate.framework */; };
+		C452C3C926623042003CDA52 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3C826623042003CDA52 /* SystemConfiguration.framework */; };
+		C452C3CB2662304F003CDA52 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3CA2662304F003CDA52 /* libc++.tbd */; };
+		C452C3CE26623059003CDA52 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3CD26623059003CDA52 /* libsqlite3.tbd */; };
+		C452C3D8266233F7003CDA52 /* TXLiteAVSDK_UGC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3D7266233F7003CDA52 /* TXLiteAVSDK_UGC.framework */; };
+		C452C3FA26623462003CDA52 /* TCBeautyPanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3E026623411003CDA52 /* TCBeautyPanel.framework */; };
+		C452C3FB26623465003CDA52 /* UGCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C452C3EC26623420003CDA52 /* UGCKit.framework */; };
+		C452C3FD26623543003CDA52 /* FilterResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C452C3FC26623543003CDA52 /* FilterResource.bundle */; };
+		C452C3FF266235AB003CDA52 /* UGCKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C452C3EE26623420003CDA52 /* UGCKitResources.bundle */; };
+		C452C400266235B7003CDA52 /* TCBeautyPanelResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C452C3E226623411003CDA52 /* TCBeautyPanelResources.bundle */; };
+		C49665DC2664C0DE0002F4E0 /* TCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665DB2664C0DE0002F4E0 /* TCMainViewController.m */; };
+		C49665E62664C1230002F4E0 /* TCUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665DE2664C1230002F4E0 /* TCUserInfoCell.m */; };
+		C49665E72664C1230002F4E0 /* TCAccountInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665E02664C1230002F4E0 /* TCAccountInfoViewController.m */; };
+		C49665E82664C1230002F4E0 /* TCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665E12664C1230002F4E0 /* TCWebViewController.m */; };
+		C49665E92664C1230002F4E0 /* TCEditUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665E32664C1230002F4E0 /* TCEditUserInfoViewController.m */; };
+		C49665F22664C1450002F4E0 /* TCLiveListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665ED2664C1450002F4E0 /* TCLiveListModel.m */; };
+		C49665F32664C1450002F4E0 /* TCVideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665EF2664C1450002F4E0 /* TCVideoListCell.m */; };
+		C49665F42664C1450002F4E0 /* TCVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49665F02664C1450002F4E0 /* TCVideoListViewController.m */; };
+		C49667302664CE8A0002F4E0 /* TVCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C496664E2664CE890002F4E0 /* TVCUtils.m */; };
+		C49667312664CE8A0002F4E0 /* TXUGCPublish.m in Sources */ = {isa = PBXBuildFile; fileRef = C49666502664CE890002F4E0 /* TXUGCPublish.m */; };
+		C49667322664CE8A0002F4E0 /* TXUGCPublishUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C49666552664CE890002F4E0 /* TXUGCPublishUtil.m */; };
+		C49667332664CE8A0002F4E0 /* TVCReport.m in Sources */ = {isa = PBXBuildFile; fileRef = C49666562664CE890002F4E0 /* TVCReport.m */; };
+		C49667342664CE8A0002F4E0 /* TVCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C49666582664CE890002F4E0 /* TVCCommon.m */; };
+		C49667352664CE8A0002F4E0 /* QCloudCOSXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496665B2664CE890002F4E0 /* QCloudCOSXML.framework */; };
+		C49667362664CE8A0002F4E0 /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C496665C2664CE890002F4E0 /* libmtasdk.a */; };
+		C49667372664CE8A0002F4E0 /* QCloudCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496665D2664CE890002F4E0 /* QCloudCore.framework */; };
+		C49667382664CE8A0002F4E0 /* TVCHttpMessageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C496665E2664CE890002F4E0 /* TVCHttpMessageURLProtocol.m */; };
+		C49667392664CE8A0002F4E0 /* TXUGCPublishOptCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C496665F2664CE890002F4E0 /* TXUGCPublishOptCenter.m */; };
+		C496673A2664CE8A0002F4E0 /* TVCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C49666632664CE890002F4E0 /* TVCClient.m */; };
+		C496673B2664CE8A0002F4E0 /* TVCClientInner.m in Sources */ = {isa = PBXBuildFile; fileRef = C49666652664CE890002F4E0 /* TVCClientInner.m */; };
+		C49667A82664CF7E0002F4E0 /* TCVideoPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667A62664CF7E0002F4E0 /* TCVideoPublishController.m */; };
+		C49667DF2664D7170002F4E0 /* TCUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667C42664D7170002F4E0 /* TCUserInfoModel.m */; };
+		C49667E02664D7170002F4E0 /* TCLoginParam.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667C72664D7170002F4E0 /* TCLoginParam.m */; };
+		C49667E12664D7170002F4E0 /* TCLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667C82664D7170002F4E0 /* TCLoginModel.m */; };
+		C49667E22664D7170002F4E0 /* PhotoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667CD2664D7170002F4E0 /* PhotoUtil.m */; };
+		C49667E32664D7170002F4E0 /* TCUploadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667CE2664D7170002F4E0 /* TCUploadHelper.m */; };
+		C49667E42664D7170002F4E0 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667D02664D7170002F4E0 /* UIView+Additions.m */; };
+		C49667E52664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667D12664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.m */; };
+		C49667E62664D7170002F4E0 /* NSData+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667D22664D7170002F4E0 /* NSData+Common.m */; };
+		C49667E72664D7170002F4E0 /* TCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667D32664D7170002F4E0 /* TCLog.m */; };
+		C49667E82664D7170002F4E0 /* HUDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667D42664D7170002F4E0 /* HUDHelper.m */; };
+		C49667E92664D7170002F4E0 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667D52664D7170002F4E0 /* NSString+Common.m */; };
+		C49667EA2664D7170002F4E0 /* TCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667DA2664D7170002F4E0 /* TCUtil.m */; };
+		C49668062664D7630002F4E0 /* TCBasePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667F02664D7630002F4E0 /* TCBasePlayViewController.m */; };
+		C49668072664D7630002F4E0 /* TCPlayDecorateView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667F12664D7630002F4E0 /* TCPlayDecorateView.m */; };
+		C49668082664D7630002F4E0 /* TCPlayViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667F22664D7630002F4E0 /* TCPlayViewCell.m */; };
+		C49668092664D7630002F4E0 /* TCVodPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667F32664D7630002F4E0 /* TCVodPlayViewController.m */; };
+		C496680A2664D7630002F4E0 /* TCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667F62664D7630002F4E0 /* TCRegisterViewController.m */; };
+		C496680B2664D7630002F4E0 /* TCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667F82664D7630002F4E0 /* TCLoginViewController.m */; };
+		C496680C2664D7630002F4E0 /* TXWechatInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667FB2664D7630002F4E0 /* TXWechatInfoView.m */; };
+		C496680D2664D7630002F4E0 /* UGCKitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C49667FE2664D7630002F4E0 /* UGCKitWrapper.m */; };
+		C496680E2664D7630002F4E0 /* TCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49668002664D7630002F4E0 /* TCNavigationController.m */; };
+		C496680F2664D7630002F4E0 /* TCVideoEditPrevViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49668042664D7630002F4E0 /* TCVideoEditPrevViewController.xib */; };
+		C49668102664D7630002F4E0 /* TCVideoEditPrevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49668052664D7630002F4E0 /* TCVideoEditPrevViewController.m */; };
+		C4F4D9F82664DF3C00D4DA6B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4F4D9ED2664DF3B00D4DA6B /* Localizable.strings */; };
+		C4F4D9F92664DF3C00D4DA6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4F4D9EF2664DF3B00D4DA6B /* InfoPlist.strings */; };
+		C4F4D9FA2664DF3C00D4DA6B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4F4D9F22664DF3B00D4DA6B /* Localizable.strings */; };
+		C4F4D9FB2664DF3C00D4DA6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4F4D9F42664DF3B00D4DA6B /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C452C3DF26623411003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4579C38623AC64DC005ECC1C;
+			remoteInfo = TCBeautyPanel;
+		};
+		C452C3E126623411003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4579C3FA23AC660C005ECC1C;
+			remoteInfo = TCBeautyPanelResources;
+		};
+		C452C3EB26623420003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3E626623420003CDA52 /* UGCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 453DE2D6237945B10083E759;
+			remoteInfo = UGCKit;
+		};
+		C452C3ED26623420003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3E626623420003CDA52 /* UGCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 454616C223797C39009CDF83;
+			remoteInfo = UGCKitResources;
+		};
+		C452C3F226623446003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3E626623420003CDA52 /* UGCKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 453DE2D5237945B10083E759;
+			remoteInfo = UGCKit;
+		};
+		C452C3F426623446003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3E626623420003CDA52 /* UGCKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 454616C123797C39009CDF83;
+			remoteInfo = UGCKitResources;
+		};
+		C452C3F626623446003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4579C38523AC64DC005ECC1C;
+			remoteInfo = TCBeautyPanel;
+		};
+		C452C3F826623446003CDA52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4579C3F923AC660C005ECC1C;
+			remoteInfo = TCBeautyPanelResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0343A903D113BEBFA1E2A374 /* Pods-腾讯短视频.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-腾讯短视频.debug.xcconfig"; path = "Target Support Files/Pods-腾讯短视频/Pods-腾讯短视频.debug.xcconfig"; sourceTree = "<group>"; };
+		1C15BEA97E0D6E98DFE99AA5 /* Pods-腾讯短视频.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-腾讯短视频.release.xcconfig"; path = "Target Support Files/Pods-腾讯短视频/Pods-腾讯短视频.release.xcconfig"; sourceTree = "<group>"; };
+		C452C2F62661EC40003CDA52 /* 腾讯短视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "腾讯短视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C452C2F92661EC40003CDA52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C452C2FA2661EC40003CDA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C452C2FF2661EC40003CDA52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C452C3002661EC40003CDA52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C452C3032661EC40003CDA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C452C3052661EC41003CDA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C452C3082661EC41003CDA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C452C30A2661EC41003CDA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C452C30B2661EC41003CDA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C452C3C626623039003CDA52 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C452C3C826623042003CDA52 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C452C3CA2662304F003CDA52 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C452C3CD26623059003CDA52 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C452C3D7266233F7003CDA52 /* TXLiteAVSDK_UGC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_UGC.framework; sourceTree = "<group>"; };
+		C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TCBeautyPanel.xcodeproj; path = BeautySettingKit/TCBeautyPanel.xcodeproj; sourceTree = "<group>"; };
+		C452C3E626623420003CDA52 /* UGCKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UGCKit.xcodeproj; path = UGCKit/UGCKit.xcodeproj; sourceTree = "<group>"; };
+		C452C3FC26623543003CDA52 /* FilterResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FilterResource.bundle; sourceTree = "<group>"; };
+		C49665DA2664C0DE0002F4E0 /* TCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMainViewController.h; sourceTree = "<group>"; };
+		C49665DB2664C0DE0002F4E0 /* TCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMainViewController.m; sourceTree = "<group>"; };
+		C49665DE2664C1230002F4E0 /* TCUserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoCell.m; sourceTree = "<group>"; };
+		C49665DF2664C1230002F4E0 /* TCUserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoCell.h; sourceTree = "<group>"; };
+		C49665E02664C1230002F4E0 /* TCAccountInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAccountInfoViewController.m; sourceTree = "<group>"; };
+		C49665E12664C1230002F4E0 /* TCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWebViewController.m; sourceTree = "<group>"; };
+		C49665E22664C1230002F4E0 /* TCAccountInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAccountInfoViewController.h; sourceTree = "<group>"; };
+		C49665E32664C1230002F4E0 /* TCEditUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEditUserInfoViewController.m; sourceTree = "<group>"; };
+		C49665E42664C1230002F4E0 /* TCEditUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEditUserInfoViewController.h; sourceTree = "<group>"; };
+		C49665E52664C1230002F4E0 /* TCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWebViewController.h; sourceTree = "<group>"; };
+		C49665EC2664C1450002F4E0 /* TCLiveListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLiveListModel.h; sourceTree = "<group>"; };
+		C49665ED2664C1450002F4E0 /* TCLiveListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLiveListModel.m; sourceTree = "<group>"; };
+		C49665EE2664C1450002F4E0 /* TCVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVideoListViewController.h; sourceTree = "<group>"; };
+		C49665EF2664C1450002F4E0 /* TCVideoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVideoListCell.m; sourceTree = "<group>"; };
+		C49665F02664C1450002F4E0 /* TCVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVideoListViewController.m; sourceTree = "<group>"; };
+		C49665F12664C1450002F4E0 /* TCVideoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVideoListCell.h; sourceTree = "<group>"; };
+		C49666442664C7C60002F4E0 /* Mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mem.h; sourceTree = "<group>"; };
+		C496664C2664CE890002F4E0 /* TXUGCPublishOptCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUGCPublishOptCenter.h; sourceTree = "<group>"; };
+		C496664D2664CE890002F4E0 /* TVCHttpMessageURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCHttpMessageURLProtocol.h; sourceTree = "<group>"; };
+		C496664E2664CE890002F4E0 /* TVCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCUtils.m; sourceTree = "<group>"; };
+		C496664F2664CE890002F4E0 /* TVCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCHeader.h; sourceTree = "<group>"; };
+		C49666502664CE890002F4E0 /* TXUGCPublish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXUGCPublish.m; sourceTree = "<group>"; };
+		C49666522664CE890002F4E0 /* TXUGCPublishListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUGCPublishListener.h; sourceTree = "<group>"; };
+		C49666532664CE890002F4E0 /* TXUGCPublishTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUGCPublishTypeDef.h; sourceTree = "<group>"; };
+		C49666542664CE890002F4E0 /* TXUGCPublish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUGCPublish.h; sourceTree = "<group>"; };
+		C49666552664CE890002F4E0 /* TXUGCPublishUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXUGCPublishUtil.m; sourceTree = "<group>"; };
+		C49666562664CE890002F4E0 /* TVCReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCReport.m; sourceTree = "<group>"; };
+		C49666572664CE890002F4E0 /* TVCClientInner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCClientInner.h; sourceTree = "<group>"; };
+		C49666582664CE890002F4E0 /* TVCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCCommon.m; sourceTree = "<group>"; };
+		C49666592664CE890002F4E0 /* TVCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCClient.h; sourceTree = "<group>"; };
+		C496665B2664CE890002F4E0 /* QCloudCOSXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QCloudCOSXML.framework; sourceTree = "<group>"; };
+		C496665C2664CE890002F4E0 /* libmtasdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmtasdk.a; sourceTree = "<group>"; };
+		C496665D2664CE890002F4E0 /* QCloudCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QCloudCore.framework; sourceTree = "<group>"; };
+		C496665E2664CE890002F4E0 /* TVCHttpMessageURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCHttpMessageURLProtocol.m; sourceTree = "<group>"; };
+		C496665F2664CE890002F4E0 /* TXUGCPublishOptCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXUGCPublishOptCenter.m; sourceTree = "<group>"; };
+		C49666602664CE890002F4E0 /* TVCReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCReport.h; sourceTree = "<group>"; };
+		C49666612664CE890002F4E0 /* TXUGCPublishUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUGCPublishUtil.h; sourceTree = "<group>"; };
+		C49666622664CE890002F4E0 /* TVCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCUtils.h; sourceTree = "<group>"; };
+		C49666632664CE890002F4E0 /* TVCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCClient.m; sourceTree = "<group>"; };
+		C49666642664CE890002F4E0 /* TVCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCCommon.h; sourceTree = "<group>"; };
+		C49666652664CE890002F4E0 /* TVCClientInner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCClientInner.m; sourceTree = "<group>"; };
+		C49667A62664CF7E0002F4E0 /* TCVideoPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVideoPublishController.m; sourceTree = "<group>"; };
+		C49667A72664CF7E0002F4E0 /* TCVideoPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVideoPublishController.h; sourceTree = "<group>"; };
+		C49667C42664D7170002F4E0 /* TCUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUserInfoModel.m; sourceTree = "<group>"; };
+		C49667C52664D7170002F4E0 /* TCUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUserInfoModel.h; sourceTree = "<group>"; };
+		C49667C72664D7170002F4E0 /* TCLoginParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLoginParam.m; sourceTree = "<group>"; };
+		C49667C82664D7170002F4E0 /* TCLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLoginModel.m; sourceTree = "<group>"; };
+		C49667C92664D7170002F4E0 /* TCLoginParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLoginParam.h; sourceTree = "<group>"; };
+		C49667CA2664D7170002F4E0 /* TCLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLoginModel.h; sourceTree = "<group>"; };
+		C49667CC2664D7170002F4E0 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		C49667CD2664D7170002F4E0 /* PhotoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoUtil.m; sourceTree = "<group>"; };
+		C49667CE2664D7170002F4E0 /* TCUploadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUploadHelper.m; sourceTree = "<group>"; };
+		C49667CF2664D7170002F4E0 /* TCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUtil.h; sourceTree = "<group>"; };
+		C49667D02664D7170002F4E0 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		C49667D12664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCloudAuthentationHeadV5Creator.m; sourceTree = "<group>"; };
+		C49667D22664D7170002F4E0 /* NSData+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Common.m"; sourceTree = "<group>"; };
+		C49667D32664D7170002F4E0 /* TCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLog.m; sourceTree = "<group>"; };
+		C49667D42664D7170002F4E0 /* HUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDHelper.m; sourceTree = "<group>"; };
+		C49667D52664D7170002F4E0 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		C49667D62664D7170002F4E0 /* PhotoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoUtil.h; sourceTree = "<group>"; };
+		C49667D72664D7170002F4E0 /* NSData+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Common.h"; sourceTree = "<group>"; };
+		C49667D82664D7170002F4E0 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		C49667D92664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCloudAuthentationHeadV5Creator.h; sourceTree = "<group>"; };
+		C49667DA2664D7170002F4E0 /* TCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUtil.m; sourceTree = "<group>"; };
+		C49667DB2664D7170002F4E0 /* TCUploadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUploadHelper.h; sourceTree = "<group>"; };
+		C49667DC2664D7170002F4E0 /* HUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDHelper.h; sourceTree = "<group>"; };
+		C49667DD2664D7170002F4E0 /* TCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLog.h; sourceTree = "<group>"; };
+		C49667DE2664D7170002F4E0 /* ColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		C49667ED2664D7630002F4E0 /* TCPlayDecorateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayDecorateView.h; sourceTree = "<group>"; };
+		C49667EE2664D7630002F4E0 /* TCPlayViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayViewCell.h; sourceTree = "<group>"; };
+		C49667EF2664D7630002F4E0 /* TCVodPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVodPlayViewController.h; sourceTree = "<group>"; };
+		C49667F02664D7630002F4E0 /* TCBasePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBasePlayViewController.m; sourceTree = "<group>"; };
+		C49667F12664D7630002F4E0 /* TCPlayDecorateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayDecorateView.m; sourceTree = "<group>"; };
+		C49667F22664D7630002F4E0 /* TCPlayViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayViewCell.m; sourceTree = "<group>"; };
+		C49667F32664D7630002F4E0 /* TCVodPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVodPlayViewController.m; sourceTree = "<group>"; };
+		C49667F42664D7630002F4E0 /* TCBasePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBasePlayViewController.h; sourceTree = "<group>"; };
+		C49667F62664D7630002F4E0 /* TCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRegisterViewController.m; sourceTree = "<group>"; };
+		C49667F72664D7630002F4E0 /* TXWechatInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXWechatInfoView.h; sourceTree = "<group>"; };
+		C49667F82664D7630002F4E0 /* TCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLoginViewController.m; sourceTree = "<group>"; };
+		C49667F92664D7630002F4E0 /* TCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRegisterViewController.h; sourceTree = "<group>"; };
+		C49667FA2664D7630002F4E0 /* TCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLoginViewController.h; sourceTree = "<group>"; };
+		C49667FB2664D7630002F4E0 /* TXWechatInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXWechatInfoView.m; sourceTree = "<group>"; };
+		C49667FD2664D7630002F4E0 /* UGCKitWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGCKitWrapper.h; sourceTree = "<group>"; };
+		C49667FE2664D7630002F4E0 /* UGCKitWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGCKitWrapper.m; sourceTree = "<group>"; };
+		C49668002664D7630002F4E0 /* TCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavigationController.m; sourceTree = "<group>"; };
+		C49668012664D7630002F4E0 /* TCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavigationController.h; sourceTree = "<group>"; };
+		C49668032664D7630002F4E0 /* TCVideoEditPrevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVideoEditPrevViewController.h; sourceTree = "<group>"; };
+		C49668042664D7630002F4E0 /* TCVideoEditPrevViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCVideoEditPrevViewController.xib; sourceTree = "<group>"; };
+		C49668052664D7630002F4E0 /* TCVideoEditPrevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVideoEditPrevViewController.m; sourceTree = "<group>"; };
+		C496681A2664D8110002F4E0 /* SDKHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKHeader.h; sourceTree = "<group>"; };
+		C496681B2664D8110002F4E0 /* TCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConstants.h; sourceTree = "<group>"; };
+		C4F4D9EE2664DF3B00D4DA6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		C4F4D9F02664DF3B00D4DA6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C4F4D9F32664DF3B00D4DA6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		C4F4D9F52664DF3B00D4DA6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C452C2F32661EC40003CDA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452C3FB26623465003CDA52 /* UGCKit.framework in Frameworks */,
+				C49667362664CE8A0002F4E0 /* libmtasdk.a in Frameworks */,
+				C452C3FA26623462003CDA52 /* TCBeautyPanel.framework in Frameworks */,
+				C452C3CE26623059003CDA52 /* libsqlite3.tbd in Frameworks */,
+				C452C3CB2662304F003CDA52 /* libc++.tbd in Frameworks */,
+				C49667352664CE8A0002F4E0 /* QCloudCOSXML.framework in Frameworks */,
+				C49667372664CE8A0002F4E0 /* QCloudCore.framework in Frameworks */,
+				C452C3D8266233F7003CDA52 /* TXLiteAVSDK_UGC.framework in Frameworks */,
+				C452C3C926623042003CDA52 /* SystemConfiguration.framework in Frameworks */,
+				C452C3C726623039003CDA52 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C452C2ED2661EC40003CDA52 = {
+			isa = PBXGroup;
+			children = (
+				C452C3E626623420003CDA52 /* UGCKit.xcodeproj */,
+				C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */,
+				C452C3D6266233F7003CDA52 /* SDK */,
+				C452C3FC26623543003CDA52 /* FilterResource.bundle */,
+				C452C2F82661EC40003CDA52 /* 腾讯短视频 */,
+				C452C2F72661EC40003CDA52 /* Products */,
+				C452C3C526623039003CDA52 /* Frameworks */,
+				DEF52478BE509AB9BFB7CB17 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C452C2F72661EC40003CDA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C452C2F62661EC40003CDA52 /* 腾讯短视频.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C452C2F82661EC40003CDA52 /* 腾讯短视频 */ = {
+			isa = PBXGroup;
+			children = (
+				C496681A2664D8110002F4E0 /* SDKHeader.h */,
+				C496681B2664D8110002F4E0 /* TCConstants.h */,
+				C49667C32664D7170002F4E0 /* Model */,
+				C49667CB2664D7170002F4E0 /* Util */,
+				C49665EB2664C1330002F4E0 /* MainList */,
+				C49665D92664BD870002F4E0 /* AccountInfo */,
+				C49667F52664D7630002F4E0 /* Account */,
+				C49667FF2664D7630002F4E0 /* NavigationController */,
+				C49667FC2664D7630002F4E0 /* UGCKitWrapper */,
+				C49668022664D7630002F4E0 /* UGCVideoJoinDemo */,
+				C49667EC2664D7630002F4E0 /* VideoPlayer */,
+				C49665D82664BD6C0002F4E0 /* MainTab */,
+				C49667A52664CF7E0002F4E0 /* Publish */,
+				C49665D12664BD250002F4E0 /* Other */,
+				C49665D02664BCDC0002F4E0 /* Res */,
+				C496664A2664CE890002F4E0 /* Dependencies */,
+				C452C30A2661EC41003CDA52 /* Info.plist */,
+			);
+			path = "腾讯短视频";
+			sourceTree = "<group>";
+		};
+		C452C3C526623039003CDA52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C452C3CD26623059003CDA52 /* libsqlite3.tbd */,
+				C452C3CA2662304F003CDA52 /* libc++.tbd */,
+				C452C3C826623042003CDA52 /* SystemConfiguration.framework */,
+				C452C3C626623039003CDA52 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C452C3D6266233F7003CDA52 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C452C3D7266233F7003CDA52 /* TXLiteAVSDK_UGC.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		C452C3DB26623411003CDA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C452C3E026623411003CDA52 /* TCBeautyPanel.framework */,
+				C452C3E226623411003CDA52 /* TCBeautyPanelResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C452C3E726623420003CDA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C452C3EC26623420003CDA52 /* UGCKit.framework */,
+				C452C3EE26623420003CDA52 /* UGCKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49665D02664BCDC0002F4E0 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4D9F12664DF3B00D4DA6B /* en.lproj */,
+				C4F4D9EC2664DF3B00D4DA6B /* zh-Hans.lproj */,
+				C452C3022661EC40003CDA52 /* Main.storyboard */,
+				C452C3052661EC41003CDA52 /* Assets.xcassets */,
+				C452C3072661EC41003CDA52 /* LaunchScreen.storyboard */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		C49665D12664BD250002F4E0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C49666442664C7C60002F4E0 /* Mem.h */,
+				C452C2F92661EC40003CDA52 /* AppDelegate.h */,
+				C452C2FA2661EC40003CDA52 /* AppDelegate.m */,
+				C452C2FF2661EC40003CDA52 /* ViewController.h */,
+				C452C3002661EC40003CDA52 /* ViewController.m */,
+				C452C30B2661EC41003CDA52 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C49665D82664BD6C0002F4E0 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				C49665DA2664C0DE0002F4E0 /* TCMainViewController.h */,
+				C49665DB2664C0DE0002F4E0 /* TCMainViewController.m */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		C49665D92664BD870002F4E0 /* AccountInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C49665E22664C1230002F4E0 /* TCAccountInfoViewController.h */,
+				C49665E02664C1230002F4E0 /* TCAccountInfoViewController.m */,
+				C49665E42664C1230002F4E0 /* TCEditUserInfoViewController.h */,
+				C49665E32664C1230002F4E0 /* TCEditUserInfoViewController.m */,
+				C49665DF2664C1230002F4E0 /* TCUserInfoCell.h */,
+				C49665DE2664C1230002F4E0 /* TCUserInfoCell.m */,
+				C49665E52664C1230002F4E0 /* TCWebViewController.h */,
+				C49665E12664C1230002F4E0 /* TCWebViewController.m */,
+			);
+			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		C49665EB2664C1330002F4E0 /* MainList */ = {
+			isa = PBXGroup;
+			children = (
+				C49665EC2664C1450002F4E0 /* TCLiveListModel.h */,
+				C49665ED2664C1450002F4E0 /* TCLiveListModel.m */,
+				C49665F12664C1450002F4E0 /* TCVideoListCell.h */,
+				C49665EF2664C1450002F4E0 /* TCVideoListCell.m */,
+				C49665EE2664C1450002F4E0 /* TCVideoListViewController.h */,
+				C49665F02664C1450002F4E0 /* TCVideoListViewController.m */,
+			);
+			path = MainList;
+			sourceTree = "<group>";
+		};
+		C496664A2664CE890002F4E0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C496664B2664CE890002F4E0 /* VideoUpload */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		C496664B2664CE890002F4E0 /* VideoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				C496664C2664CE890002F4E0 /* TXUGCPublishOptCenter.h */,
+				C496664D2664CE890002F4E0 /* TVCHttpMessageURLProtocol.h */,
+				C496664E2664CE890002F4E0 /* TVCUtils.m */,
+				C496664F2664CE890002F4E0 /* TVCHeader.h */,
+				C49666502664CE890002F4E0 /* TXUGCPublish.m */,
+				C49666512664CE890002F4E0 /* include */,
+				C49666552664CE890002F4E0 /* TXUGCPublishUtil.m */,
+				C49666562664CE890002F4E0 /* TVCReport.m */,
+				C49666572664CE890002F4E0 /* TVCClientInner.h */,
+				C49666582664CE890002F4E0 /* TVCCommon.m */,
+				C49666592664CE890002F4E0 /* TVCClient.h */,
+				C496665A2664CE890002F4E0 /* COSSDK */,
+				C496665E2664CE890002F4E0 /* TVCHttpMessageURLProtocol.m */,
+				C496665F2664CE890002F4E0 /* TXUGCPublishOptCenter.m */,
+				C49666602664CE890002F4E0 /* TVCReport.h */,
+				C49666612664CE890002F4E0 /* TXUGCPublishUtil.h */,
+				C49666622664CE890002F4E0 /* TVCUtils.h */,
+				C49666632664CE890002F4E0 /* TVCClient.m */,
+				C49666642664CE890002F4E0 /* TVCCommon.h */,
+				C49666652664CE890002F4E0 /* TVCClientInner.m */,
+			);
+			path = VideoUpload;
+			sourceTree = "<group>";
+		};
+		C49666512664CE890002F4E0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C49666522664CE890002F4E0 /* TXUGCPublishListener.h */,
+				C49666532664CE890002F4E0 /* TXUGCPublishTypeDef.h */,
+				C49666542664CE890002F4E0 /* TXUGCPublish.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C496665A2664CE890002F4E0 /* COSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C496665B2664CE890002F4E0 /* QCloudCOSXML.framework */,
+				C496665C2664CE890002F4E0 /* libmtasdk.a */,
+				C496665D2664CE890002F4E0 /* QCloudCore.framework */,
+			);
+			path = COSSDK;
+			sourceTree = "<group>";
+		};
+		C49667A52664CF7E0002F4E0 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				C49667A62664CF7E0002F4E0 /* TCVideoPublishController.m */,
+				C49667A72664CF7E0002F4E0 /* TCVideoPublishController.h */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		C49667C32664D7170002F4E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C49667C42664D7170002F4E0 /* TCUserInfoModel.m */,
+				C49667C52664D7170002F4E0 /* TCUserInfoModel.h */,
+				C49667C62664D7170002F4E0 /* Login */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C49667C62664D7170002F4E0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C49667C72664D7170002F4E0 /* TCLoginParam.m */,
+				C49667C82664D7170002F4E0 /* TCLoginModel.m */,
+				C49667C92664D7170002F4E0 /* TCLoginParam.h */,
+				C49667CA2664D7170002F4E0 /* TCLoginModel.h */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C49667CB2664D7170002F4E0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C49667CC2664D7170002F4E0 /* NSString+Common.h */,
+				C49667CD2664D7170002F4E0 /* PhotoUtil.m */,
+				C49667CE2664D7170002F4E0 /* TCUploadHelper.m */,
+				C49667CF2664D7170002F4E0 /* TCUtil.h */,
+				C49667D02664D7170002F4E0 /* UIView+Additions.m */,
+				C49667D12664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.m */,
+				C49667D22664D7170002F4E0 /* NSData+Common.m */,
+				C49667D32664D7170002F4E0 /* TCLog.m */,
+				C49667D42664D7170002F4E0 /* HUDHelper.m */,
+				C49667D52664D7170002F4E0 /* NSString+Common.m */,
+				C49667D62664D7170002F4E0 /* PhotoUtil.h */,
+				C49667D72664D7170002F4E0 /* NSData+Common.h */,
+				C49667D82664D7170002F4E0 /* UIView+Additions.h */,
+				C49667D92664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.h */,
+				C49667DA2664D7170002F4E0 /* TCUtil.m */,
+				C49667DB2664D7170002F4E0 /* TCUploadHelper.h */,
+				C49667DC2664D7170002F4E0 /* HUDHelper.h */,
+				C49667DD2664D7170002F4E0 /* TCLog.h */,
+				C49667DE2664D7170002F4E0 /* ColorMacro.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C49667EC2664D7630002F4E0 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C49667ED2664D7630002F4E0 /* TCPlayDecorateView.h */,
+				C49667EE2664D7630002F4E0 /* TCPlayViewCell.h */,
+				C49667EF2664D7630002F4E0 /* TCVodPlayViewController.h */,
+				C49667F02664D7630002F4E0 /* TCBasePlayViewController.m */,
+				C49667F12664D7630002F4E0 /* TCPlayDecorateView.m */,
+				C49667F22664D7630002F4E0 /* TCPlayViewCell.m */,
+				C49667F32664D7630002F4E0 /* TCVodPlayViewController.m */,
+				C49667F42664D7630002F4E0 /* TCBasePlayViewController.h */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		C49667F52664D7630002F4E0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C49667F62664D7630002F4E0 /* TCRegisterViewController.m */,
+				C49667F72664D7630002F4E0 /* TXWechatInfoView.h */,
+				C49667F82664D7630002F4E0 /* TCLoginViewController.m */,
+				C49667F92664D7630002F4E0 /* TCRegisterViewController.h */,
+				C49667FA2664D7630002F4E0 /* TCLoginViewController.h */,
+				C49667FB2664D7630002F4E0 /* TXWechatInfoView.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		C49667FC2664D7630002F4E0 /* UGCKitWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C49667FD2664D7630002F4E0 /* UGCKitWrapper.h */,
+				C49667FE2664D7630002F4E0 /* UGCKitWrapper.m */,
+			);
+			path = UGCKitWrapper;
+			sourceTree = "<group>";
+		};
+		C49667FF2664D7630002F4E0 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C49668002664D7630002F4E0 /* TCNavigationController.m */,
+				C49668012664D7630002F4E0 /* TCNavigationController.h */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		C49668022664D7630002F4E0 /* UGCVideoJoinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C49668032664D7630002F4E0 /* TCVideoEditPrevViewController.h */,
+				C49668042664D7630002F4E0 /* TCVideoEditPrevViewController.xib */,
+				C49668052664D7630002F4E0 /* TCVideoEditPrevViewController.m */,
+			);
+			path = UGCVideoJoinDemo;
+			sourceTree = "<group>";
+		};
+		C4F4D9EC2664DF3B00D4DA6B /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4D9ED2664DF3B00D4DA6B /* Localizable.strings */,
+				C4F4D9EF2664DF3B00D4DA6B /* InfoPlist.strings */,
+			);
+			name = "zh-Hans.lproj";
+			path = "腾讯短视频/zh-Hans.lproj";
+			sourceTree = SOURCE_ROOT;
+		};
+		C4F4D9F12664DF3B00D4DA6B /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4D9F22664DF3B00D4DA6B /* Localizable.strings */,
+				C4F4D9F42664DF3B00D4DA6B /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = "腾讯短视频/en.lproj";
+			sourceTree = SOURCE_ROOT;
+		};
+		DEF52478BE509AB9BFB7CB17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0343A903D113BEBFA1E2A374 /* Pods-腾讯短视频.debug.xcconfig */,
+				1C15BEA97E0D6E98DFE99AA5 /* Pods-腾讯短视频.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C452C2F52661EC40003CDA52 /* 腾讯短视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C452C30F2661EC41003CDA52 /* Build configuration list for PBXNativeTarget "腾讯短视频" */;
+			buildPhases = (
+				C67583358431FC763F2C0808 /* [CP] Check Pods Manifest.lock */,
+				C452C2F22661EC40003CDA52 /* Sources */,
+				C452C2F32661EC40003CDA52 /* Frameworks */,
+				C452C2F42661EC40003CDA52 /* Resources */,
+				4F959D7F157257D6E2243D0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C452C3F326623446003CDA52 /* PBXTargetDependency */,
+				C452C3F526623446003CDA52 /* PBXTargetDependency */,
+				C452C3F726623446003CDA52 /* PBXTargetDependency */,
+				C452C3F926623446003CDA52 /* PBXTargetDependency */,
+			);
+			name = "腾讯短视频";
+			productName = "腾讯短视频";
+			productReference = C452C2F62661EC40003CDA52 /* 腾讯短视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C452C2EE2661EC40003CDA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C452C2F52661EC40003CDA52 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C452C2F12661EC40003CDA52 /* Build configuration list for PBXProject "腾讯短视频" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = C452C2ED2661EC40003CDA52;
+			productRefGroup = C452C2F72661EC40003CDA52 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C452C3DB26623411003CDA52 /* Products */;
+					ProjectRef = C452C3DA26623411003CDA52 /* TCBeautyPanel.xcodeproj */;
+				},
+				{
+					ProductGroup = C452C3E726623420003CDA52 /* Products */;
+					ProjectRef = C452C3E626623420003CDA52 /* UGCKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C452C2F52661EC40003CDA52 /* 腾讯短视频 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C452C3E026623411003CDA52 /* TCBeautyPanel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TCBeautyPanel.framework;
+			remoteRef = C452C3DF26623411003CDA52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C452C3E226623411003CDA52 /* TCBeautyPanelResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TCBeautyPanelResources.bundle;
+			remoteRef = C452C3E126623411003CDA52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C452C3EC26623420003CDA52 /* UGCKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UGCKit.framework;
+			remoteRef = C452C3EB26623420003CDA52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C452C3EE26623420003CDA52 /* UGCKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UGCKitResources.bundle;
+			remoteRef = C452C3ED26623420003CDA52 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C452C2F42661EC40003CDA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452C3092661EC41003CDA52 /* LaunchScreen.storyboard in Resources */,
+				C496680F2664D7630002F4E0 /* TCVideoEditPrevViewController.xib in Resources */,
+				C452C3062661EC41003CDA52 /* Assets.xcassets in Resources */,
+				C452C3042661EC40003CDA52 /* Main.storyboard in Resources */,
+				C452C3FD26623543003CDA52 /* FilterResource.bundle in Resources */,
+				C4F4D9FA2664DF3C00D4DA6B /* Localizable.strings in Resources */,
+				C4F4D9F82664DF3C00D4DA6B /* Localizable.strings in Resources */,
+				C452C3FF266235AB003CDA52 /* UGCKitResources.bundle in Resources */,
+				C4F4D9F92664DF3C00D4DA6B /* InfoPlist.strings in Resources */,
+				C4F4D9FB2664DF3C00D4DA6B /* InfoPlist.strings in Resources */,
+				C452C400266235B7003CDA52 /* TCBeautyPanelResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F959D7F157257D6E2243D0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-腾讯短视频/Pods-腾讯短视频-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-腾讯短视频/Pods-腾讯短视频-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-腾讯短视频/Pods-腾讯短视频-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67583358431FC763F2C0808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-腾讯短视频-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C452C2F22661EC40003CDA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49667312664CE8A0002F4E0 /* TXUGCPublish.m in Sources */,
+				C49665E92664C1230002F4E0 /* TCEditUserInfoViewController.m in Sources */,
+				C49667E62664D7170002F4E0 /* NSData+Common.m in Sources */,
+				C49667E72664D7170002F4E0 /* TCLog.m in Sources */,
+				C49667E12664D7170002F4E0 /* TCLoginModel.m in Sources */,
+				C49667EA2664D7170002F4E0 /* TCUtil.m in Sources */,
+				C49667E02664D7170002F4E0 /* TCLoginParam.m in Sources */,
+				C49667302664CE8A0002F4E0 /* TVCUtils.m in Sources */,
+				C496673A2664CE8A0002F4E0 /* TVCClient.m in Sources */,
+				C49665DC2664C0DE0002F4E0 /* TCMainViewController.m in Sources */,
+				C49667392664CE8A0002F4E0 /* TXUGCPublishOptCenter.m in Sources */,
+				C49665E72664C1230002F4E0 /* TCAccountInfoViewController.m in Sources */,
+				C49667DF2664D7170002F4E0 /* TCUserInfoModel.m in Sources */,
+				C452C3012661EC40003CDA52 /* ViewController.m in Sources */,
+				C496680B2664D7630002F4E0 /* TCLoginViewController.m in Sources */,
+				C49668072664D7630002F4E0 /* TCPlayDecorateView.m in Sources */,
+				C49667E32664D7170002F4E0 /* TCUploadHelper.m in Sources */,
+				C49665F32664C1450002F4E0 /* TCVideoListCell.m in Sources */,
+				C49667E82664D7170002F4E0 /* HUDHelper.m in Sources */,
+				C49665F42664C1450002F4E0 /* TCVideoListViewController.m in Sources */,
+				C496680C2664D7630002F4E0 /* TXWechatInfoView.m in Sources */,
+				C49668082664D7630002F4E0 /* TCPlayViewCell.m in Sources */,
+				C49667332664CE8A0002F4E0 /* TVCReport.m in Sources */,
+				C49667E22664D7170002F4E0 /* PhotoUtil.m in Sources */,
+				C49665E82664C1230002F4E0 /* TCWebViewController.m in Sources */,
+				C496673B2664CE8A0002F4E0 /* TVCClientInner.m in Sources */,
+				C496680D2664D7630002F4E0 /* UGCKitWrapper.m in Sources */,
+				C496680A2664D7630002F4E0 /* TCRegisterViewController.m in Sources */,
+				C496680E2664D7630002F4E0 /* TCNavigationController.m in Sources */,
+				C49668062664D7630002F4E0 /* TCBasePlayViewController.m in Sources */,
+				C49667A82664CF7E0002F4E0 /* TCVideoPublishController.m in Sources */,
+				C49667E52664D7170002F4E0 /* QCloudAuthentationHeadV5Creator.m in Sources */,
+				C452C2FB2661EC40003CDA52 /* AppDelegate.m in Sources */,
+				C49668092664D7630002F4E0 /* TCVodPlayViewController.m in Sources */,
+				C49668102664D7630002F4E0 /* TCVideoEditPrevViewController.m in Sources */,
+				C49667E92664D7170002F4E0 /* NSString+Common.m in Sources */,
+				C49665F22664C1450002F4E0 /* TCLiveListModel.m in Sources */,
+				C49667E42664D7170002F4E0 /* UIView+Additions.m in Sources */,
+				C452C30C2661EC41003CDA52 /* main.m in Sources */,
+				C49667382664CE8A0002F4E0 /* TVCHttpMessageURLProtocol.m in Sources */,
+				C49667342664CE8A0002F4E0 /* TVCCommon.m in Sources */,
+				C49667322664CE8A0002F4E0 /* TXUGCPublishUtil.m in Sources */,
+				C49665E62664C1230002F4E0 /* TCUserInfoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C452C3F326623446003CDA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UGCKit;
+			targetProxy = C452C3F226623446003CDA52 /* PBXContainerItemProxy */;
+		};
+		C452C3F526623446003CDA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UGCKitResources;
+			targetProxy = C452C3F426623446003CDA52 /* PBXContainerItemProxy */;
+		};
+		C452C3F726623446003CDA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCBeautyPanel;
+			targetProxy = C452C3F626623446003CDA52 /* PBXContainerItemProxy */;
+		};
+		C452C3F926623446003CDA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCBeautyPanelResources;
+			targetProxy = C452C3F826623446003CDA52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C452C3022661EC40003CDA52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C452C3032661EC40003CDA52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C452C3072661EC41003CDA52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C452C3082661EC41003CDA52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F4D9ED2664DF3B00D4DA6B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F4D9EE2664DF3B00D4DA6B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C4F4D9EF2664DF3B00D4DA6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F4D9F02664DF3B00D4DA6B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4F4D9F22664DF3B00D4DA6B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F4D9F32664DF3B00D4DA6B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C4F4D9F42664DF3B00D4DA6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F4D9F52664DF3B00D4DA6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C452C30D2661EC41003CDA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C452C30E2661EC41003CDA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C452C3102661EC41003CDA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0343A903D113BEBFA1E2A374 /* Pods-腾讯短视频.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGH5QQBQ98;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/腾讯短视频/SDK",
+					"$(PROJECT_DIR)/SDK",
+					"$(PROJECT_DIR)/腾讯短视频/Dependencies/VideoUpload/COSSDK",
+				);
+				INFOPLIST_FILE = "腾讯短视频/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/腾讯短视频/Dependencies/VideoUpload/COSSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.GR.demoVOD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C452C3112661EC41003CDA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C15BEA97E0D6E98DFE99AA5 /* Pods-腾讯短视频.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CGH5QQBQ98;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/腾讯短视频/SDK",
+					"$(PROJECT_DIR)/SDK",
+					"$(PROJECT_DIR)/腾讯短视频/Dependencies/VideoUpload/COSSDK",
+				);
+				INFOPLIST_FILE = "腾讯短视频/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/腾讯短视频/Dependencies/VideoUpload/COSSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.GR.demoVOD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C452C2F12661EC40003CDA52 /* Build configuration list for PBXProject "腾讯短视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C452C30D2661EC41003CDA52 /* Debug */,
+				C452C30E2661EC41003CDA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C452C30F2661EC41003CDA52 /* Build configuration list for PBXNativeTarget "腾讯短视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C452C3102661EC41003CDA52 /* Debug */,
+				C452C3112661EC41003CDA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C452C2EE2661EC40003CDA52 /* Project object */;
+}
